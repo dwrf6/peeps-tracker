@@ -6,9 +6,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('cyclists');
-  this.route('contact');
-  this.route('about');
+  this.route('make-wheel');
+  this.route('add-rim');
+  this.route('add-hub');
 });
 
 export default Router;

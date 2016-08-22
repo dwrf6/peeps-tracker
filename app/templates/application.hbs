@@ -8,22 +8,23 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">CT </a>
+      <a class="navbar-brand" href="#">
+        {{#link-to 'index'}}{{fa-icon "cog" size=2 spin=true}}{{/link-to}}
+      </a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">	
 	<ul class="nav navbar-nav">
-		<li class="active">{{#link-to 'index'}}Home{{/link-to}}</li>
-		<li>{{#link-to 'cyclists'}}Cyclists{{/link-to}}</li>
-		<li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
-		<li>{{#link-to 'about'}}About{{/link-to}}</li>
+		<li>{{#link-to 'make-wheel'}}Make Wheel{{/link-to}}</li>
+    <li>{{#link-to 'add-rim'}}{{fa-icon "plus" size=1}} Rim{{/link-to}}</li>
+    <li>{{#link-to 'add-hub'}}{{fa-icon "plus" size=1}} Hub{{/link-to}}</li>
 	</ul>
 	
 	</div><!-- /.navbar-collapse -->
   </div>
   </nav>
 	<div class="jumbotron">
-		<h1 class="front">Cyclist Tracker</h1>
+		<h1 class="front">Wheel Factory</h1>
 	</div>
 
 {{outlet}}

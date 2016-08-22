@@ -7,10 +7,26 @@ html {
 
 
 body {
-	font-family: Gotham;
+	font-family: 'Helvetica Neue';
 	padding: 0;
 	margin: 0;
 	
+}
+.navbar-brand {
+	//border: 1px solid #0CF;
+	padding-top: 10px;
+	.fa-cog{
+		color: green;
+		transition: color 1s ease;
+		&:hover {
+			color: navy;
+			transition: color 1s ease;
+		}
+	}
+}
+.fa-spin {
+	transform-origin: 50% calc(50% - .8px);
+
 }
 
 .front { 
