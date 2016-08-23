@@ -16,10 +16,10 @@ body {
 	//border: 1px solid #0CF;
 	padding-top: 10px;
 	.fa-cog{
-		color: green;
+		color: orange;
 		transition: color 1s ease;
 		&:hover {
-			color: navy;
+			color: red;
 			transition: color 1s ease;
 		}
 	}
