@@ -8,22 +8,29 @@ html {
 
 body {
 	font-family: 'Helvetica Neue';
+	color: white;
 	padding: 0;
 	margin: 0;
-	
+    background: linear-gradient(90deg, rgba(10, 0, 60, .8), rgba(10, 0, 60, .4)), url(/assets/main-bg.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
+
+.navbar {
+	border-radius: 0;
+}
+
 .navbar-brand {
-	//border: 1px solid #0CF;
 	padding-top: 10px;
 	.fa-cog{
 		color: orange;
-		transition: color 1s ease;
+		transition: color .5s ease;
 		&:hover {
 			color: red;
-			transition: color 1s ease;
+			transition: color .5s ease;
 		}
 	}
 }
+
 .fa-spin {
 	transform-origin: 50% calc(50% - .8px);
 
